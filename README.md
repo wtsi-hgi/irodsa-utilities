@@ -1,0 +1,1 @@
+*Do not use this script to de-obfuscate `.irodsA` files where you haven't had the express permission of the owner to do so!* 
