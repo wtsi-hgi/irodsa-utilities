@@ -1,0 +1,1 @@
+../../resources/irods/scripts/irods/password_obfuscation.py
