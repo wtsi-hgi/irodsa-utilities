@@ -1,0 +1,4 @@
+[submodule "resources/irods"]
+	path = resources/irods
+	url = https://github.com/irods/irods.git
+	branch = master
