@@ -4,7 +4,7 @@ from ohirods.irods.password_obfuscation import decode
 
 def main():
     """
-    Program entrypoint.
+    Unobfuscate password entrypoint.
     """
     irods_a_file_location = get_input_file_location()
     obfuscated = get_obfuscated_password(irods_a_file_location)
