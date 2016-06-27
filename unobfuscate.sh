@@ -3,4 +3,4 @@ set -e
 
 PROJECT_DIRECTORY="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-PYTHONPATH=${PROJECT_DIRECTORY} python2 ${PROJECT_DIRECTORY}/ohirods/unobfuscate.py $1
+PYTHONPATH=${PROJECT_DIRECTORY} python2 ${PROJECT_DIRECTORY}/irodsautils/unobfuscate.py "$@"
