@@ -21,7 +21,7 @@ class TestObfuscate(unittest.TestCase):
 
     def test_obfuscate_from_file(self):
         process = subprocess.Popen(
-            [PYTHON_BIN, "%s/obfuscate.py" % SCRIPT_DIRECTORY, "--uid", str(UID), "--mtime", str(MTIME)],
+            [PYTHON_BIN, "%s/obfuscate.py" % SCRIPT_DIRECTORY, "--uid", str(UID), "--mtime", str(MTIME), "-"],
             env=RUN_ENVIRONMENT, stdout=subprocess.PIPE, stdin=subprocess.PIPE)
         result = process.communicate(PASSWORD)[0]
         self.assertEqual(result, OBFUSCATED_PASSWORD)
