@@ -1,12 +1,12 @@
 # Utilities for Managing .irodsA Files
 ## About
 This software provides a simple way to read/create the contents of the `.irodsA` files that are used by 
-[iRODS](http://irods.org/). The read functionality may be useful if you have a bunch of `.irodsA` files to work with but
-the associated plaintext passwords are nowhere to be found. Alternatively, the creat functionality could be helpful if 
-you need to create an `.irodsA` file without having `iinit`.
+[iRODS](http://irods.org/). The read functionality may be useful if you need to reclaim a lost password from an 
+`.irodsA` file. The create functionality could be helpful if you need to write the contents of an `.irodsA` file without 
+having `iinit`.
 
-The best use of these utilities however is as a reminder that `.irodsA` are not secure: they should not be left lying 
-around or set with the wrong privileges!
+**The best use of these utilities however is to serve as a reminder that `.irodsA` files are insecure: they should not 
+be left lying around with the wrong privileges!**
 
 The (arguably strange...) function that does the obfuscation is [provided in the iRODS repository]
 (https://github.com/irods/irods/blob/a1db0f5defa9a34f72be3be1e4f8ae24965f9187/scripts/irods/password_obfuscation.py) - 
